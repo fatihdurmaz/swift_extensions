@@ -1,4 +1,4 @@
-extension Bundle {
+extension JSONBundle {
     // "Bundle" adlı sınıfı genişletme (extension) yaparak "decode" adlı bir fonksiyon oluşturuyoruz.
     func decode(_ file: String) -> [String: Astronaut] {
         // "url" adlı bir değişkene, "file" parametresinin adını belirterek uygulamanın ana bundle'ındaki JSON dosyasının URL'sini atıyoruz.
