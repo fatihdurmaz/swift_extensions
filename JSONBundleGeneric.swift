@@ -1,9 +1,9 @@
 extension Bundle {
-    /// Bir dosyayı yükler ve verilen türde çözümler.
-    ///
-    /// - Parameters:
-    ///   - file: Yüklenecek dosyanın adı.
-    /// - Returns: Yüklenmiş dosyanın verilen türdeki temsilcisi.
+    /*
+        "Bundle" adlı sınıfı genişletme (extension) yaparak "decode" adlı bir fonksiyon oluşturuyoruz.
+        decode adlı işlev, dosya adını (file) ve çözümlenecek nesne türünü (T) parametre olarak alır. 
+        T parametresi, Codable protokolünü uygulayan herhangi bir tür olabilir.
+    */
     func decode<T: Codable>(_ file: String) -> T {
         // Belirtilen dosyanın URL'sini al.
         guard let url = self.url(forResource: file, withExtension: nil) else {
@@ -26,9 +26,13 @@ extension Bundle {
     }
 }
 
-// Kullanımı
 
-let book = Bundle.main.decode<Book>("book.json")
+// Kullanımı 1. Alternatif
+let books = Bundle.main.decode<Book>("book.json") 
+// Kullanımı 2. Alternatif
+let books: [Book] = Bundle.main.decode("books.json")
+
+
 
 
 
