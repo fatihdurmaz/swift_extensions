@@ -1,3 +1,10 @@
+//
+//  FirebaseAuthManager.swift
+//  SwiftLibray
+//
+//  Created by Fatih Durmaz on 13.05.2023.
+//
+
 import FirebaseAuth
 import SwiftUI
 
