@@ -1,1 +1,1 @@
-# Merhaba, bu repoda kullandığım ve yeni öğrendiğim eklentileri paylaşıyor olacağım.
+# Merhaba, bu repoda kullandığım ve yeni öğrendiğim swift ve swifui bilgilerimi paylaşıyor olacağım.
