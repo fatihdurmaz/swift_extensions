@@ -1,1 +1,2 @@
-# Merhaba, bu repoda kullandığım ve yeni öğrendiğim swift ve swifui bilgilerimi paylaşıyor olacağım.
+# Swift Libraries
+I share the Swift libraries and classes I use in my projects in this repo.
